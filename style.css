@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+}
+nav .active a {
+    background-color: silver;
+    color: #878484;
+}
+nav a {
+    color: silver;
+}
+nav a:hover {
+    color: #878484;
+}
+.navbar {
+    padding: 0;
+}
+.dead figure figcaption {
+    visibility: visible;
+     background-color: unset;
+    top: 30%;
+    width: 50%;
+    font-size: 1.5rem;
+ }
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+.card figcaption {
+    visibility: hidden;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    padding: 2%;
+    background-color: #878484;
+    color: lavender;
+    border-radius: 10px;
+}
+.card figure:hover > figcaption {
+    visibility: visible;
+}
+hr {
+    border: 1px solid black;
+}
+form button {
+    width: 10%;
+    margin-left: 90%;
+
+}
+footer ol li {
+    list-style: none;
+    color: lavender;
+}
+figure {
+    text-align: center;
+}
